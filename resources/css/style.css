@@ -5,6 +5,10 @@ html {
   font-size: 16px;
 }
 
+div {
+  display: block;
+}
+
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
@@ -218,6 +222,10 @@ header .mobile {
 
 /* Features Section */
 
+.feature .content {
+  padding: 2.5rem 0;
+}
+
 #features-section {
   display: flex;
   justify-content: space-between;
@@ -303,6 +311,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
@@ -343,11 +352,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -356,7 +365,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
